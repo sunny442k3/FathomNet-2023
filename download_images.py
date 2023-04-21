@@ -8,6 +8,10 @@ from multiprocessing.pool import ThreadPool
 def read_json(filename):
     return json.load(open(filename, "r"))
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a7b804288cbc931c7b24addf1ae52ef9f6f3757f
 def delete_empty_files(folder_path):
     for file_name in os.listdir(folder_path):
         file_path = os.path.join(folder_path, file_name)
